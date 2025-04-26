@@ -1,0 +1,30 @@
+.show-hide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+.show-hide button{
+    background-color: #834d4d;
+    color: #f8f8f8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50%;
+}
+.show-hide button:hover{
+    background-color: #f8f8f8;
+    color: #834d4d;
+    transition: 0.3s;
+}
+.show-hide img{
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px #3333;
+    transition: transform 0.2s;
+    cursor: pointer;  
+}
