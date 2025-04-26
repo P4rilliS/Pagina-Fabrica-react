@@ -1,10 +1,11 @@
 import './App.css'
 import Card from './components/Card'
+import ShowHide from './components/ShowHide'
 import colchones from './data/colchones'
 
 function App() {
-  const colchonesList = colchones.map(c => {
-    return <Card title={c.name} description={c.description}/>
+  const colchonesList = colchones.map((c, index) => {
+    return <Card key= {index} title={c.name} description={c.description} image={c.image} price={c.price}/>
   })
   
   return ( 
@@ -13,6 +14,7 @@ function App() {
       <div className='container'>
         {colchonesList}
       </div>
+      <ShowHide />  
     </div>
   );  
 
