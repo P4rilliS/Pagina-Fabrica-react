@@ -10,7 +10,7 @@ function App() {
   
   return ( 
     <div className="App">
-      <h1>Corporacion sueño De Angel, C.A</h1>
+      <h1>Corporación Sueño De Angel, C.A</h1>
       <div className='container'>
         {colchonesList}
       </div>
