@@ -13,3 +13,17 @@
     justify-content: center;
 
 }
+
+.logoynombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.logoynombre img{
+    width: 200px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    cursor: pointer;  
+    width: 50%;
+}

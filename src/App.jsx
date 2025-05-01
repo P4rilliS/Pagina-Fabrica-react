@@ -10,7 +10,10 @@ function App() {
   
   return ( 
     <div className="App">
-      <h1>Corporación Sueño De Angel, C.A</h1>
+      <div className="logoynombre">
+        <img src="./logo.png" alt="Logo" />
+        {/* <h1>Corporación Sueño De Angel, C.A</h1> */}
+      </div>
       <div className='container'>
         {colchonesList}
       </div>

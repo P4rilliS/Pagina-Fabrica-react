@@ -6,7 +6,7 @@ function Card(props){
             <h2>{props.title}</h2>
             <p>{props.description}</p>
             <img src={props.image} alt={props.title} className="Card-image" />
-            <p className="Card-price">{props.price}</p>
+            <p className="Card-price">Ref: {props.price}</p>
         </div>
     );
 }
